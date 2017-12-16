@@ -3,6 +3,8 @@ import logo from './public/assets/images/basketball.jpg';
 import './public/assets/css/App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Navbar } from './components/navbar';
+import { ClickButton } from './components/button';
+import { Score } from './components/score';
 
 class App extends Component {
   render() {
