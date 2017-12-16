@@ -14,9 +14,9 @@ class App extends Component {
           </div>
         </Router>
         <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
           <h1>Clicky Game!</h1>
           <h3>Click on a Team Logo to earn points, but don't click on any more than once!</h3>
-          <img src={logo} className="App-logo" alt="logo" />
         </header>
       </div>
     );
